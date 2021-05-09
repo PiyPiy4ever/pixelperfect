@@ -45,6 +45,11 @@
     text-decoration: none;
 }
 
+.nav__link:hover,
+.subnav__link:hover {
+    color: #df6267;
+}
+
 .nav__item:nth-child(1) {
     padding: 20px 40px;
     background: #3f3f3f;
@@ -141,7 +146,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 17px 14px 66px 17px;
+    padding: 16px 14px 66px 17px;
 }
 
 .primary__info-title h3 {
@@ -151,10 +156,11 @@
     color: #000;
 }
 
-.primary__info-description p {
+.primary__info .primary__info-description p {
     font-size: 17.8px;
     color: #000;
 }
+
 .gallery {
     padding-bottom: 64px;
 }
@@ -162,6 +168,11 @@
 .gallery a img{
     padding-right: 18px;
     padding-bottom: 66px;
+    transition: all .5s;
+}
+
+.gallery a img:hover{
+    transform: scale(1.04);
 }
 
 .button {
@@ -173,6 +184,15 @@
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
+    transition: all 0.5s;
+}
+
+.button:hover{
+    background: #963e41;
+}
+
+.button:active{
+    background: #f7666b;
 }
 
 .primary h2 {
@@ -227,6 +247,7 @@
 .footer {
     width: 63%;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 
 .footer__social {
@@ -245,6 +266,22 @@
     font-size: 16px;
     color: blue;
     text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.footer__social ul li a:hover{
+    background: #df6267;
+    color: #fff;
+}
+
+.footer__social ul li:active{
+    transform: scale(0.9);
+    transition: all 0.5s;
+}
+
+.footer__social ul li a:active{
+    background: #963e41;
 }
 
 .footer__copy {
