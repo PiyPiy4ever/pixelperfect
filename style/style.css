@@ -121,7 +121,8 @@
 }
 
 .main h2 {
-    font-size: 26px;
+    font-size: 25px;
+    letter-spacing: .4px;
     padding-bottom: 35px;
 }
 
@@ -132,6 +133,7 @@
 }
 
 .primary {
+    padding-bottom: 55px;
     border-bottom: 2px solid #d2d2d2;
 }
 
@@ -139,21 +141,54 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 18px 14px 70px 17px;
+    padding: 17px 14px 66px 17px;
 }
 
-.primary__info-title p{
+.primary__info-title h3 {
     font-family: 'Times New Roman', Times, serif;   
     font-size: 25px;
     font-weight: bold;
     color: #000;
 }
 
-.primary__info-description {
+.primary__info-description p {
     font-size: 17.8px;
+    color: #000;
+}
+.gallery {
+    padding-bottom: 64px;
 }
 
 .gallery a img{
     padding-right: 18px;
     padding-bottom: 66px;
+}
+
+.button {
+    padding: 24px 95px;
+    background-color: #df6267;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.primary h2 {
+    font-size: 25px;
+    letter-spacing: .4px;
+    padding: 42px 0 15px 0;
+}
+
+.primary span {
+    font-size: 17.4px;
+    line-height: 70px;
+    color: #8b8989;
+}
+
+.primary p {
+    font-size: 17.4px;
+    line-height: 35px;
+    color: #8b8989;
 }
