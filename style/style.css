@@ -116,4 +116,44 @@
 
 .main {
     border-bottom: 2px solid #d2d2d2;
+    padding-top: 144px;
+    padding-bottom: 104px;
+}
+
+.main h2 {
+    font-size: 26px;
+    padding-bottom: 35px;
+}
+
+.main p {
+    font-size: 17.4px;
+    line-height: 35px;
+    color: #8b8989;
+}
+
+.primary {
+    border-bottom: 2px solid #d2d2d2;
+}
+
+.primary__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 14px 70px 17px;
+}
+
+.primary__info-title p{
+    font-family: 'Times New Roman', Times, serif;   
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+}
+
+.primary__info-description {
+    font-size: 17.8px;
+}
+
+.gallery a img{
+    padding-right: 18px;
+    padding-bottom: 66px;
 }
